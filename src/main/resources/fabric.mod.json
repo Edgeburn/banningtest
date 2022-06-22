@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "banscreentest",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Ban Screen Test",
+  "description": "Force the ban screen to appear as a demo",
   "authors": [
-    "Me!"
+    "Edgeburn Media"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Edgeburn/banningtest",
+    "sources": "https://github.com/Edgeburn/banningtest"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/banscreentest/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.edgeburnmedia.banscreentest.BanScreenTest"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "banscreentest.mixins.json"
   ],
 
   "depends": {
