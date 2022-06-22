@@ -1,8 +1,8 @@
-# Fabric Example Mod
+# Ban Screen Test
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Install Fabric to 1.19.1-pre1, and install this mod to the mods folder **While this should not effect your account, for safety reasons run this mod with your Internet connection disabled**
 
 ## License
 
