@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install Fabric to 1.19.1-pre1, and install this mod to the mods folder **While this should not effect your account, for safety reasons run this mod with your Internet connection disabled**
+Install Fabric to 1.19.1-pre1, and install this mod to the mods folder. **While this should not effect your account, for safety reasons, you should run this mod only with your Internet connection disabled.**
 
 ## License
 
