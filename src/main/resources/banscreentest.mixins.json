@@ -6,8 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin",
-    "MinecraftClientMixin"
+    "MinecraftClientMixin",
+    "BansMixin"
   ],
   "injectors": {
     "defaultRequire": 1
