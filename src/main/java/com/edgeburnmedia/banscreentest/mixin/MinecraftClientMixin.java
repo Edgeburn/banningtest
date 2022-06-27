@@ -1,5 +1,6 @@
 package com.edgeburnmedia.banscreentest.mixin;
 
+import com.edgeburnmedia.banscreentest.BanScreenTest;
 import com.mojang.authlib.minecraft.BanDetails;
 import net.minecraft.client.MinecraftClient;
 import org.jetbrains.annotations.Nullable;
@@ -18,6 +19,6 @@ public abstract class MinecraftClientMixin {
 	@Overwrite
 	@Nullable
 	public BanDetails getMultiplayerBanDetails() {
-		return new BanDetails(UUID.randomUUID(), null, null, null);
+		return new BanDetails(BanScreenTest.BAN_ID, null, null, null);
 	}
 }
