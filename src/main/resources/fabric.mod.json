@@ -6,7 +6,7 @@
   "name": "Ban Screen Test",
   "description": "Force the ban screen to appear as a demo",
   "authors": [
-    "Edgeburn Media"
+    "Edgeburn Media", "Codetoil"
   ],
   "contact": {
     "homepage": "https://github.com/Edgeburn/banningtest",
